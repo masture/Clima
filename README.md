@@ -1,6 +1,6 @@
 # Clima
 
-This App access users current location with his permission and then fetches the current temperature from openweathermap.org.
+This App access users current location with user permission and then fetches the current temperature from openweathermap.org.
 It allows user to display the temperature either in Centigrade or Fahrenheit.
 Also user can enter a city and get its temperature.
 A large image changes as per the whether like Cloudy, Sunny, Snow, Storm, etc.
