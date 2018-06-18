@@ -1,25 +1,11 @@
 # Clima
-Learn to make iOS Apps with [The App Brewery](https://www.appbrewery.co) 📱 | Project Stub | (Swift 4.0/Xcode 9) - Clima App
 
-Beginner: Download the starter project files as .zip and extract the files to your desktop.
+This App access users current location with his permission and then fetches the current temperature from openweathermap.org.
+It allows user to display the temperature either in Centigrade or Fahrenheit.
+Also user can enter a city and get its temperature.
+A large image changes as per the whether like Cloudy, Sunny, Snow, Storm, etc.
+The images and included as part of the App bundle and are included in Images.xassets.
 
-Pro: Git clone to your Xcode projects folder.
-
-## Finished App
-![Finished App](https://github.com/londonappbrewery/Images/blob/master/Clima.gif)
-
-## Fix for Cocoapods v1.0.1 and below
-
-```ruby
-post_install do |installer|
-  installer.pods_project.targets.each do |target|
-    target.build_configurations.each do |config|
-      config.build_settings['SWIFT_VERSION'] = '3.0'
-      config.build_settings['MACOSX_DEPLOYMENT_TARGET'] = '10.10'
-    end
-  end
-end
-```
 
 ## Fix for App Transport Security Override
 
@@ -38,8 +24,3 @@ end
 		</dict>
 	</dict>
 ```
-
-
-Copyright © The App Brewery
-
-# Clima
